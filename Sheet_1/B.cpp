@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+//using namespace std;
 int main() {
     int a;
     long long int b;
