@@ -4,11 +4,11 @@ int main(void){
     scanf("%d", &N);
     int A[N];
     for(int i=0; i<N; i++){
-        scanf("%lld", &A[i]);
-        if(A[i] < 0){
-            A[i] = -A[i];
-        }
+        scanf("%d", &A[i]);
         sum += A[i];
+    }
+    if(sum < 0){
+        sum = -sum;
     }
     printf("%d", sum);
     return 0;
