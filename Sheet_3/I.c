@@ -9,7 +9,7 @@ int main(void){
             scanf("%d", &A[i]);
         }
         min = A[0]+A[1]+2-1;
-        for(int i = 0; i < N; i++){
+        for(int i = 1; i < N; i++){
             for(int j = i+1; j < N; j++){
                 if(i>=1 && i<j && j<=N){
                     calc = A[i]+A[j]+j-i;
